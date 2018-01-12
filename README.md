@@ -1,0 +1,2 @@
+# bedell.space
+my website

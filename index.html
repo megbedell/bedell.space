@@ -1,19 +1,20 @@
 <!DOCTYPE HTML>
 <!--
-	Identity by HTML5 UP
+	Astral by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
 	<head>
-		<title>Megan Bedell</title>
+		<title>Dr. Megan Bedell</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<!--[if lte IE 8]><script src="assets/js/html5shiv.js"></script><![endif]-->
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
 		<link rel="stylesheet" href="assets/css/main.css" />
-		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
-		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		
+		<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
 		
 		<!-- Global site tag (gtag.js) - Google Analytics -->
 		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-55356360-1"></script>
@@ -26,85 +27,111 @@
 		</script>
 		
 	</head>
-	<body class="is-loading">
+	<body>
 
-		<!-- Wrapper -->
+		<!-- Wrapper-->
 			<div id="wrapper">
 
+				<!-- Nav -->
+					<nav id="nav">
+						<a href="#me" class="icon fa-home active"><span>Home</span></a>
+						<a href="#work" class="icon fa-star"><span>Research</span></a>
+						<a href="cv_full.pdf" class="icon fa-file"><span>CV</span></a>
+						<a href="https://github.com/megbedell" class="icon fa-github"><span>Github</span></a>
+						<a href="https://twitter.com/meg_bedell" class="icon fa-twitter"><span>Twitter</span></a>
+						<a href="mailto:megbedell@gmail.com" class="icon fa-envelope"><span>Email</span></a>
+					</nav>
+
 				<!-- Main -->
-					<section id="main">
-						<header>
-							<!-- 
-							<span class="avatar"><img src="images/myface_circ.png" alt="" width=125 height=125 /></span>
-							-->
-							<h1>Megan Bedell</h1>
-							<p>astronomer</p>
-						</header>
-						<!--
-						<hr />
-						<h2>Extra Stuff!</h2>
-						<form method="post" action="#">
-							<div class="field">
-								<input type="text" name="name" id="name" placeholder="Name" />
-							</div>
-							<div class="field">
-								<input type="email" name="email" id="email" placeholder="Email" />
-							</div>
-							<div class="field">
-								<div class="select-wrapper">
-									<select name="department" id="department">
-										<option value="">Department</option>
-										<option value="sales">Sales</option>
-										<option value="tech">Tech Support</option>
-										<option value="null">/dev/null</option>
-									</select>
-								</div>
-							</div>
-							<div class="field">
-								<textarea name="message" id="message" placeholder="Message" rows="4"></textarea>
-							</div>
-							<div class="field">
-								<input type="checkbox" id="human" name="human" /><label for="human">I'm a human</label>
-							</div>
-							<div class="field">
-								<label>But are you a robot?</label>
-								<input type="radio" id="robot_yes" name="robot" /><label for="robot_yes">Yes</label>
-								<input type="radio" id="robot_no" name="robot" /><label for="robot_no">No</label>
-							</div>
-							<ul class="actions">
-								<li><a href="#" class="button">Get Started</a></li>
-							</ul>
-						</form>
-						<hr />
-						-->
-						<footer>
-							<ul class="icons">
-								<li><a href="cv_full.pdf" class="fa-file-pdf-o" title="CV">CV</a></li>
-								<li><a href="https://www.simonsfoundation.org/team/megan-bedell/" class="fa-university" title="Institute Profile">Institute Profile</a></li>
-								<li><a href="https://github.com/megbedell" class="fa-github" title="Github">Github</a></li>
-								<li><a href="https://www.twitter.com/meg_bedell" class="fa-twitter" title="Twitter">Twitter</a></li>
-								<li><a href="mailto:mbedell@flatironinstitute.org" class="fa-envelope-o" title="Email">Email</a></li>
-							</ul>
-						</footer>
-					</section>
+					<div id="main">
+
+						<!-- Me -->
+							<article id="me" class="panel">
+								<header>
+									<h1>Megan Bedell</h1>
+									<p><i>astronomer</i></p>
+								</header>
+								<a href="#work" class="jumplink pic">
+									<span class="arrow icon fa-chevron-right"><span>About my work</span></span>
+									<img src="images/simons-photo.jpg" alt="" />
+								</a>
+							</article>
+
+						<!-- Work -->
+							<article id="work" class="panel">
+								<header>
+									<h2>Research</h2>
+								</header>
+								<p>
+									My research is broadly focused on the connections between stars and the planets they host. I am an expert in high-precision optical spectroscopy of Sun-like stars. I've also <a href="https://arxiv.org/abs/1507.03998">discovered</a> <a href="https://arxiv.org/abs/1610.09067">several exoplanets</a> through the radial velocity technique.
+								</p>
+								<p>
+									I am interested in data-driven techniques for the discovery and characterization of new exoplanets. I work with data from ground-based spectrographs including <a href="https://www.eso.org/public/usa/teles-instr/lasilla/36/harps/">HARPS</a> and <a href="https://www2.keck.hawaii.edu/inst/hires/">HIRES</a> as well as space missions like <a href="https://www.nasa.gov/mission_pages/kepler/main/index.html">Kepler</a> and <a href="http://sci.esa.int/gaia/">Gaia</a>.
+								</p>
+								<!-- 
+								<p>
+									I also like making visualizations - see below for some fun interactive plots I've made!
+								</p>
+								<section>
+									<div class="row centered">
+										<div class="4u 12u$(mobile)">
+											<a href="mr.html" class="image fit"><img src="images/mr.png" alt=""></a>
+										</div>
+										<div class="4u 12u$(mobile)">
+											<a href="multis.html" class="image fit"><img src="images/multis.png" alt=""></a>
+										</div>
+									</div>
+								</section>
+									-->
+							</article>
+
+						<!-- Contact
+							<article id="contact" class="panel">
+								<header>
+									<h2>Contact Me</h2>
+								</header>
+								<form action="#" method="post">
+									<div>
+										<div class="row">
+											<div class="6u 12u$(mobile)">
+												<input type="text" name="name" placeholder="Name" />
+											</div>
+											<div class="6u$ 12u$(mobile)">
+												<input type="text" name="email" placeholder="Email" />
+											</div>
+											<div class="12u$">
+												<input type="text" name="subject" placeholder="Subject" />
+											</div>
+											<div class="12u$">
+												<textarea name="message" placeholder="Message" rows="8"></textarea>
+											</div>
+											<div class="12u$">
+												<input type="submit" value="Send Message" />
+											</div>
+										</div>
+									</div>
+								</form>
+							</article>
+							 -->
+
+					</div>
 
 				<!-- Footer -->
-					<footer id="footer">
+					<div id="footer">
 						<ul class="copyright">
-							<li>&copy; Megan Bedell</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+							<li>&copy; Megan Bedell.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
 						</ul>
-					</footer>
+					</div>
 
 			</div>
 
 		<!-- Scripts -->
-			<!--[if lte IE 8]><script src="assets/js/respond.min.js"></script><![endif]-->
-			<script>
-				if ('addEventListener' in window) {
-					window.addEventListener('load', function() { document.body.className = document.body.className.replace(/\bis-loading\b/, ''); });
-					document.body.className += (navigator.userAgent.match(/(MSIE|rv:11\.0)/) ? ' is-ie' : '');
-				}
-			</script>
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/skel-viewport.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
 
 	</body>
 </html>

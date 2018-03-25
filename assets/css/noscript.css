@@ -1,21 +1,47 @@
 /*
-	Identity by HTML5 UP
+	Astral by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
-/* Basic */
+/* Wrapper */
 
-	body:after {
-		display: none;
+	#wrapper {
+		opacity: 1.0;
 	}
 
-/* Main */
+/* Nav */
+
+	#nav {
+		margin-top: 4em;
+	}
+
+		#nav a {
+			opacity: 1.0;
+		}
+
+			#nav a:before, #nav a:after {
+				display: none;
+			}
+
+			#nav a span {
+				top: 0;
+				opacity: 1.0;
+			}
+
+				#nav a span:after {
+					display: none;
+				}
+
+/* Panels */
 
 	#main {
-		-moz-transform: none !important;
-		-webkit-transform: none !important;
-		-ms-transform: none !important;
-		transform: none !important;
-		opacity: 1 !important;
+		background: none;
+		box-shadow: none;
+	}
+
+	.panel {
+		position: relative;
+		background: #ffffff;
+		box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.25);
 	}

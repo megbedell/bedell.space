@@ -27,6 +27,12 @@ p {
     hyphens: auto;
 }
 
+img {
+  display: block;
+  max-width: 80%;
+  height: auto;
+}
+
 .container {
     width: 900px;
     margin: 50px auto;
